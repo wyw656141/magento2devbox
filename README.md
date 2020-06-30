@@ -17,9 +17,9 @@ Based on Ubuntu 20.4. Installed Magento 2.3.4p1, MariaDB 10.3.22, PHP 7.3, Nginx
     bin/magento setup:upgrade  
 
 # Important file directory
-Nginx config /etc/nginx/sites-available/magento
-Nginx root /var/www/html
-Magento /var/www/html/magento2
+    Nginx config /etc/nginx/sites-available/magento
+    Nginx root /var/www/html
+    Magento root /var/www/html/magento2
 
 # Useful commands
 https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands.html
